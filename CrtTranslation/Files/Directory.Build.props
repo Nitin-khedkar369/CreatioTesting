@@ -1,0 +1,7 @@
+<Project>
+	<ItemGroup Label="Entity Files" Condition="'$(PkgPath)' != ''">
+		<Compile Include="$(PkgPath)/CrtTranslation/Schemas/ApplySession/ApplySession.cs" Condition="Exists('$(PkgPath)/CrtTranslation/Schemas/ApplySession/ApplySession.cs')" />
+		<Compile Include="$(PkgPath)/CrtTranslation/Schemas/ApplyTranslationParameters/ApplyTranslationParameters.cs" Condition="Exists('$(PkgPath)/CrtTranslation/Schemas/ApplyTranslationParameters/ApplyTranslationParameters.cs')" />
+		<Compile Include="$(PkgPath)/CrtTranslation/Schemas/TranslationStatus/TranslationStatus.cs" Condition="Exists('$(PkgPath)/CrtTranslation/Schemas/TranslationStatus/TranslationStatus.cs')" />
+	</ItemGroup>
+</Project>

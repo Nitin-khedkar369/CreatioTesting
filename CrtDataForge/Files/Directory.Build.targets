@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtDataForge/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtDataForge/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtDataForge/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtDataForge/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtDataForge/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtDataForge/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtDataForge/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtDataForge/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtDataForge/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtDataForge/Resources/**" />
+		<None Remove="$(PkgPath)/CrtDataForge/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtDataForge/Data/**" />
+		<None Remove="$(PkgPath)/CrtDataForge/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtDataForge/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtDataForge/Resources/**" />
+  </ItemGroup>
+</Project>
