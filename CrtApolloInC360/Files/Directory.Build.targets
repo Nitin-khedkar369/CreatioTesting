@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/CrtApolloInC360/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/CrtApolloInC360/Data/**" />
+		<Compile Remove="$(PkgPath)/CrtApolloInC360/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/CrtApolloInC360/Schemas\**" />
+		<Compile Remove="$(PkgPath)/CrtApolloInC360/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtApolloInC360/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtApolloInC360/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtApolloInC360/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtApolloInC360/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/CrtApolloInC360/Resources/**" />
+		<None Remove="$(PkgPath)/CrtApolloInC360/Assemblies/**" />
+		<None Remove="$(PkgPath)/CrtApolloInC360/Data/**" />
+		<None Remove="$(PkgPath)/CrtApolloInC360/SqlScripts/**" />
+		<None Remove="$(PkgPath)/CrtApolloInC360/Schemas/**" />
+		<None Remove="$(PkgPath)/CrtApolloInC360/Resources/**" />
+  </ItemGroup>
+</Project>

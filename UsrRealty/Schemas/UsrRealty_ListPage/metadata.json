@@ -1,0 +1,9 @@
+= MetaData.Schema.UId "6ef685b0-1bfa-453c-9611-82b21edcfe48"
+= MetaData.Schema.A2 "UsrRealty_ListPage"
+= MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
+~ MetaData.Schema.B2 ["9b477847-6327-3cd8-1638-324f62e3d420"]
+= MetaData.Schema.B6 "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2"
+= MetaData.Schema.HD1 "b7b898d0-8c77-4953-c097-23fa6800da02"
+- MetaData.Schema.B7
+- MetaData.Schema.HD12
++ MetaData.Schema.B7 false
