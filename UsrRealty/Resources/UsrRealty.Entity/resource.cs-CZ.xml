@@ -2,7 +2,6 @@
 <Resources Culture="cs-CZ">
 	<Group Type="String">
 		<Items>
-			<Item Name="Caption" Value="Realty" />
 			<Item Name="Columns.UsrName.Caption" Value="Název" />
 		</Items>
 	</Group>
